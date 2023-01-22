@@ -27,4 +27,4 @@ modules:
   sources:
     - type: git
       url: https://github.com/keyiflerolsun/ntvHaber.git
-      commit: bd0a741de3ac4ded57052c8c4c4603105570b2a2
+      commit: 4b7ff1c5e741da7539f648dcf5b312dbf5a3425e
