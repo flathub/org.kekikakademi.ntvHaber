@@ -12,7 +12,6 @@ finish-args:
   - --socket=fallback-x11
   - --share=network
   - --socket=pulseaudio
-  - --talk-name=org.freedesktop.Notifications
 
 modules:
 - python3-requirements.json
@@ -27,4 +26,4 @@ modules:
   sources:
     - type: git
       url: https://github.com/keyiflerolsun/ntvHaber.git
-      commit: 4b7ff1c5e741da7539f648dcf5b312dbf5a3425e
+      commit: 4d90c0680be7b1357c4d150d0fe46cfd3b5b4308
