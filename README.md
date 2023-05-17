@@ -7,5 +7,5 @@ For bug reports and feature requests, see: [ntvHaber](https://github.com/keyifle
 ```bash
 wget https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator
 chmod +x flatpak-pip-generator
-./flatpak-pip-generator --requirements-file=requirements.txt
+./flatpak-pip-generator --checker-data --requirements-file=requirements.txt
 ```
