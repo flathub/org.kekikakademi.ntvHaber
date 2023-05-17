@@ -1,24 +1,14 @@
-pip
-setuptools
-wheel
+setuptools==67.6.1
+rich==13.3.5
 
-install-freedesktop
+flet==0.7.1
+flet_core==0.7.1
 
-rich
+pystray==0.19.4
+Pillow==9.5.0
+notifypy==1.0.3.0
 
-packaging
-scikit-build
-poetry
-pdm
-pdm-pep517
-flet
-
-pystray
-Pillow
-notify-py
-
-requests
-
-APScheduler
-parsel
-cssselect
+requests==2.28.2
+parsel==1.7.0
+cssselect==1.2.0
+APScheduler==3.10.1
