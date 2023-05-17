@@ -1,21 +1,21 @@
-pip==23.1.2
-setuptools==67.7.2
-wheel==0.40.0
+pip
+setuptools
+wheel
 
-install-freedesktop==0.1.2
+install-freedesktop
 
-rich==13.3.5
+rich
 
-pdm==2.6.1
-pdm-pep517==1.1.4
-flet==0.7.1
+pdm
+pdm-pep517
+flet
 
-pystray==0.19.4
-Pillow==9.5.0
-notify-py==0.3.42
+pystray
+Pillow
+notify-py
 
-requests==2.30.0
+requests
 
-APScheduler==3.10.1
-parsel==1.8.1
-cssselect==1.2.0
+APScheduler
+parsel
+cssselect

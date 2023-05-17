@@ -5,5 +5,7 @@ For bug reports and feature requests, see: [ntvHaber](https://github.com/keyifle
 ###
 
 ```bash
-req2flatpak --requirements-file requirements.txt --target-platforms 310-x86_64 310-aarch64 > python3-requirements.json
+wget https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator
+chmod +x flatpak-pip-generator
+./flatpak-pip-generator --requirements-file=requirements.txt
 ```
