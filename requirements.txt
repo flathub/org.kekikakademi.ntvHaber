@@ -6,6 +6,7 @@ install-freedesktop
 
 rich
 
+packaging
 poetry
 pdm
 pdm-pep517
