@@ -22,7 +22,6 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
 
 modules:
-- SRC/python3-poetry.yaml
 - SRC/python3-requirements.yaml
 
 - name: ntvHaber-yukleyici

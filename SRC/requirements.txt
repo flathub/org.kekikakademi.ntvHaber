@@ -2,6 +2,7 @@ install-freedesktop
 
 rich
 
+poetry
 flet
 
 pystray
