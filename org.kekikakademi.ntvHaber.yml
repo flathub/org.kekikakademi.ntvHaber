@@ -22,8 +22,7 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
 
 modules:
-- SRC/python3-poetry.yaml
-- SRC/python3-requirements.json
+- SRC/python3-requirements.yaml
 
 - name: ntvHaber-yukleyici
   buildsystem: simple
@@ -36,4 +35,4 @@ modules:
   sources:
     - type: git
       url: https://github.com/keyiflerolsun/ntvHaber.git
-      commit: 24b2828d68a882df25378c1f63b9762a41f45ab7
+      commit: 3c4d00a5b783fdb2ea4433eb76656b821e879b54

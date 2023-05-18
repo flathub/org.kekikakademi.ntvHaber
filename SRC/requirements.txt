@@ -1,13 +1,8 @@
-pip
-setuptools
-wheel
-
 install-freedesktop
 
 rich
 
-pdm
-pdm-pep517
+poetry
 flet
 
 pystray
