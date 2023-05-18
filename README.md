@@ -5,5 +5,6 @@ For bug reports and feature requests, see: [ntvHaber](https://github.com/keyifle
 ```bash
 wget https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator && chmod +x flatpak-pip-generator
 
+./flatpak-pip-generator poetry --output SRC/python3-poetry --checker-data --yaml --runtime org.kekikakademi.ntvHaber
 ./flatpak-pip-generator --checker-data --yaml --requirements-file=SRC/requirements.txt --output SRC/python3-requirements
 ```
