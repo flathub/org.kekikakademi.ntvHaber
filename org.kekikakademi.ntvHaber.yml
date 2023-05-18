@@ -7,24 +7,33 @@ sdk: org.freedesktop.Sdk
 command: ntvHaber
 
 finish-args:
+  # ? X11 + XShm Erişimi
   - --share=ipc
+  # - --socket=x11
+  # ? Wayland Erişimi
   - --socket=wayland
+  # ? Wayland mevcut olmadığında X11 Erişimi Ver
   - --socket=fallback-x11
+  # ? Ağ Erişimi
   - --share=network
+  # ? PulseAudio Kullanarak Sesleri Çal
   - --socket=pulseaudio
+  # ? Bildirim Erişim İzni
   - --talk-name=org.freedesktop.Notifications
 
 modules:
+- python3-poetry.yaml
 - python3-requirements.json
 
 - name: ntvHaber-yukleyici
   buildsystem: simple
   build-commands:
-    - install -Dm644 org.kekikakademi.ntvHaber.desktop /app/share/applications/org.kekikakademi.ntvHaber.desktop
-    - install -Dm644 org.kekikakademi.ntvHaber.appdata.xml /app/share/appdata/org.kekikakademi.ntvHaber.appdata.xml
-    - install -Dm644 ntvHaber/Assets/Logo.svg /app/share/icons/hicolor/scalable/apps/org.kekikakademi.ntvHaber.svg
+    - install -Dm644 Shared/org.kekikakademi.ntvHaber.desktop /app/share/applications/org.kekikakademi.ntvHaber.desktop
+    - install -Dm644 Shared/org.kekikakademi.ntvHaber.appdata.xml /app/share/appdata/org.kekikakademi.ntvHaber.appdata.xml
+    - install -Dm644 Shared/org.kekikakademi.ntvHaber.svg /app/share/icons/hicolor/scalable/apps/org.kekikakademi.ntvHaber.svg
     - python3 -m pip install . --prefix=${FLATPAK_DEST}
+
   sources:
     - type: git
       url: https://github.com/keyiflerolsun/ntvHaber.git
-      commit: 4b7ff1c5e741da7539f648dcf5b312dbf5a3425e
+      commit: 24b2828d68a882df25378c1f63b9762a41f45ab7
