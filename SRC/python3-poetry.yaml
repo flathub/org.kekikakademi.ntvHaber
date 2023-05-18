@@ -186,8 +186,8 @@ sources:
     sha256: f0013fd4ce06cfae879a2580ab6acc3d51ec93ecb364d6c061b6c77b44dd72de
 
   - type: file
-    url: https://files.pythonhosted.org/packages/f0/52/c4781a46b47eeedbcbcce5b4b60895e7e062140c26546079153f367e667a/rapidfuzz-2.9.0-cp310-cp310-musllinux_1_1_x86_64.whl
-    sha256: 963e9cd4dfc8f6bb56a3f8255f4f954d1b7bc3d405364b61bc1149f5a664f961
+    url: https://files.pythonhosted.org/packages/e8/c8/ccd0619fd31c7a6fe75647f5cbea32e375f1fcb6e40c35cb83d6149069eb/rapidfuzz-2.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sha256: e10b891b233a89fb11bc478e…47f5e6385a5a64fda5d2818
 
   - type: file
     url: https://files.pythonhosted.org/packages/d5/ea/9ae603de7fbb3df820b23a70f6aff92bf8c7770043254ad8d2dc9d6bcba4/pyproject_hooks-1.0.0-py3-none-any.whl
